@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Rawnd </title>
+
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- PAGE 1 -->
+    <div class="one">
+      <h1>Hey <span id="name">Rawnd</span> </h1>
+      <p class="intro">I really like your name </p>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="three">
+      <p>It's your birthday!!! </p>
+    </div>
+
+    <!-- PAGE 3 - CHAT SIMULATION -->
+    <div class="chat-container">
+      <div class="chat-box">
+        <div class="message" id="msg1"><span class="dots">...</span></div>
+        <div class="message" id="msg2"><span class="dots">...</span></div>
+        <div class="message" id="msg3"><span class="dots">...</span></div>
+        <div class="message" id="msg4"><span class="dots">...</span></div>
+        <div class="message" id="msg5"><span class="dots">...</span></div>
+        <div class="message" id="msg6"><span class="dots">...</span></div>
+        <div class="message" id="msg7"><span class="dots">...</span></div>
+        <div class="message" id="msg8"><span class="dots">...</span></div>
+      </div>
+    </div>
+
+    <!-- PAGE 4 -->
+    <div class="five">
+      <!-- BALLOONS -->
+      <div class="balloons">
+        <img src="img/balloon1.png" class="balloon">
+        <img src="img/balloon2.png" class="balloon">
+        <img src="img/balloon3.png" class="balloon">
+      </div>
+
+      <!-- HER PHOTO -->
+      <div class="photo">
+        <img src="img/rawnd.jpg" alt="Rawnd">
+      </div>
+
+      <!-- CONFETTI -->
+      <canvas id="confetti"></canvas>
+    </div>
+
+  </div>
+
+  <!-- JS for chat + confetti -->
+  <script src="style/chat-confetti.js"></script>
+</body>
+</html>
